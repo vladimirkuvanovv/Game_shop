@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>форма отправки</title>
+</head>
+<body>
+<form action="/pages" method="post" style="max-width: 500px;">
+    <!--<input type="hidden" name="_method" value="PUT">-->
+    <div class="form-group">
+        <label for="exampleInputEmail1">Название товара</label>
+        <input type="text" class="form-control" name="prod" id="exampleInputEmail1">
+    </div>
+    <div class="form-group">
+        <label for="exampleInput">Категория товара</label>
+        <input type="text" class="form-control" name="category" id="exampleInput">
+    </div>
+    <div class="form-group">
+        <label for="example">Цена</label>
+        <input type="number" class="form-control" name="price" id="example">
+    </div>
+    <input type="submit" value="Edit">
+</form>
+</body>
+</html>
